@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 135%;
+    background: #f1f1f1;
+}
+
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#nav {
+    background-color: #002fa7;
+    width: 100%;
+}
+
+#nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s linear;
+
+}
+
+#nav li a:hover {
+    background-color: #111;
+}
+
+.hobilerim {
+    display: inline-block;
+    width: 1400px;
+    height: 1500px;
+    margin: 50px 50px;
+}
+
+.spor {
+    display: inline-block;
+    width: 600px;
+    height: 650px;
+   position: absolute;
+    top: 195px;
+    left: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+     background-image: url(img/body.jpg);
+    background-size: cover;
+
+}
+.spor img{
+    width: 100%;
+    height: 60vh;
+}
+
+.body2 {
+    display: inline-block;
+    width: 600px;
+    height: 650px;
+    position: absolute;
+    left: 750px;
+    top: 195px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.body2 ul li ,.oyun2 ul li{
+    padding: 10px;
+    padding-top: 20px;
+    list-style: none;
+}
+.video,.video2{
+    padding-top: 100px;
+}
+.oyun{
+    display: inline-block;
+    width: 600px;
+    height: 650px;
+    position: absolute;
+    left: 100px;
+    top: 900px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url(img/oyun3.jpg);
+    background-size: cover;
+    
+}
+.oyun img{
+     width: 100%;
+    height: 50vh;
+}
+.oyun2{
+     display: inline-block;
+    width: 600px;
+    height: 650px;
+    position: absolute;
+    left: 750px;
+    top: 900px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.arkaplan{
+    background-color:  #f1f1f1;
+    
+    
+}
+.arkaplan img{
+    width: 100%;
+    height: 100%;
+}
+.hakkimdac{
+    height: 750px;
+}
+.hakkimda{
+     display: inline-block;
+    width: 600px;
+    height: 650px;
+    position: absolute;
+    left: 100px;
+    top: 1800px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.hakkimda2{
+    display: inline-block;
+    width: 600px;
+    height: 650px;
+    position: absolute;
+    left: 800px;
+    top: 1800px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+#yazi,#yazi2{
+    color: gold;
+}
+.resim{
+    height: 400px;
+    background-image: url(img/yenii.jpg);
+    background-size: cover;
+}
+#yazi{
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+#et1{
+    font-size: 110px;
+    display: inline-block;
+    margin-left: 60px;
+}
+#et2{
+    font-size: 110px;
+    display: inline-block;
+    margin-left: 450px;
+    position: absolute;
+    top: 515px;
+    left: 10px;
+}
+#et3{
+    font-size: 60px;
+    display: inline-block;
+    margin-left: 100px;
+}
+#et3 a{
+    text-decoration: none;
+    color: gold;
+}
+#et3 a:hover{
+    cursor: pointer;
+    font-size: 70px;
+}
+.home{
+    position: fixed;
+    width: 40px;
+    height: 35px;
+    background-color: skyblue;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 500px;
+    margin-left: 0px;
+}
+.home span a{
+    font-size: 33px;
+    padding: 3px;
+    
+}
+.home span a:hover{
+    color: red;
+}
+

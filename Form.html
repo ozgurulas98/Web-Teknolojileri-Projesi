@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Iletişim</title>
+    <link rel="stylesheet" href="/img/arkacontact.jpg">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <div id="nav">
+        <div class="container">
+
+            <ul>
+                
+                <li>
+                    <a href="anasayfa.html">ANASAYFA</a>
+                </li>
+                <li>
+                    <a href="Sehrim.html">ŞEHRİM</a>
+                </li>
+                <li>
+                    <a href="takimimiz.html">MİRASIMIZ</a>
+                </li>
+                <li>
+                    <a href="Form.html">İLETİŞİM</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+    <div class="arkaplan">
+        <div class="iletisim">
+            <span>Iletişim Formu</span>
+        </div>
+        <hr style="margin-bottom: 25px;">
+
+        <div class="form">
+
+            <form  method="post">
+                <span>Ad:</span><br>
+                <input id="ad" type="text" name="adi" placeholder="Adınız..">
+                <br>
+                <span>Soyad: </span><br>
+                <input id="soyad" type="text" name="soyadi" placeholder="Soyadınız..">
+                <br>
+                <span>E-posta</span><br>
+                <input id="email" type="mail" name="mail" placeholder="E-posta Adrasiniz..">
+                <br><br>
+                <span>Cinsiyet</span>
+                <input id="cns" type="radio" name="cinsiyet" value="bay">Erkek
+                <input id="cns" type="radio" name="cinsiyet" value="bayan">Kız <br><br>
+
+                <span>Mesaj:</span><br>
+                <textarea id="mesaj" name="mesaj" placeholder="Mesajınız.." height="200px"></textarea>
+                <br>
+                <input type="submit" value="Gönder" onclick="kontrol()">
+                <input type="reset" value="Temizle">
+                <script>
+                    function kontrol() {
+                        var isim = document.getElementById("ad").value;
+                        var soyad = document.getElementById("soyad").value;
+                        var email = document.getElementById("email").value;
+                        var sayac = 0;
+                        if (isim == null || isim == "" || soyad == null || soyad == "") {
+                            alert("Ad veya Soyad Boş Bırakılmaz.");
+
+                        }
+                        if (email == null || email == "") {
+                            alert("E-posta Adresi Boş Bırakılmaz.");
+
+                        }
+                        for (var i = 0; i < email.length+1; i++) {
+                            if (email[i] == '@') {
+
+                                sayac++;
+
+                            }
+
+                        }
+                        if(sayac==0){
+                            alert("Geçerli Bir E-posta Adresi Giriniz.");
+                        }
+
+
+
+
+                    }
+
+                </script>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

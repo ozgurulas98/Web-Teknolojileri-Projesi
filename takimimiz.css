@@ -1,0 +1,248 @@
+/*Genel Kısım*/
+body {
+    background-color: #f8f8f8;
+}
+
+section {
+    padding-top: 40px;
+}
+
+.navbar {
+    background-color: #1a78c2;
+}
+
+footer {
+    color: #fff;
+    margin-top: 80px;
+    background-color: #1a78c2;
+}
+
+.cerceve {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+/*Ana Sayfa*/
+.isim {
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.profil-resim {
+    margin-right: 30px;
+}
+
+@media (max-width: 768px) {
+    .profil-resim {
+        margin: 0 0 30px;
+    }
+}
+
+
+.kisisel-bolum,
+p {
+    margin-bottom: 30px;
+}
+
+.kisisel-bolum .adsoyad {
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0 0 5px;
+}
+
+.kisisel-bolum span {
+    font-size: 24px;
+    color: #ff5722;
+}
+
+.kisisel-bilgi strong {
+    margin: 10px 0;
+    font-size: 13px;
+    columns: #444444;
+    display: block;
+    line-height: 1;
+}
+
+.kisisel-bilgi small {
+    font-size: 12px;
+}
+
+.sosyal-ikon {
+    margin: 20px 0;
+    padding: 0;
+    display: block;
+}
+
+.sosyal-ikon li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.sosyal-ikon li a {
+    display: block;
+    font-size: 15px;
+    color: #333333;
+    width: 34px;
+    height: 34px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 2px;
+    border: 2px solid #eeeeee;
+}
+
+.sosyal-ikon li a:hover {
+    border-color: #cccccc;
+}
+
+.section-baslik {
+    margin-right: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.okul h6 {
+    color: #558844;
+    text-transform: uppercase;
+}
+
+.okul p {
+    font-size: 15px;
+}
+
+.yetkinlik {
+    position: relative;
+}
+
+.yetkinlik .yetkinlik-baslik {
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.yetkinlik .progress {
+    margin-bottom: 3px;
+}
+
+.hobi {
+    margin-bottom: 15px;
+}
+
+.hobi-aciklama h4 {
+    text-transform: uppercase;
+}
+
+.hobi-aciklama p {
+    font-size: 14px;
+}
+
+/*Şehir Bölümü*/
+
+.carousel img {
+    margin: auto;
+}
+
+.sehir-section {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.sehir-section h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section #rize h3 {
+    text-align: center;
+}
+
+section #yerler img {
+    border-radius: 10px;
+}
+
+section #kackar h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+section #ayder h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+section #zil-kale h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+section #firtina h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+/*Takımımız Bölümü*/
+.takim-bilgi {
+    margin-top: 20px;
+}
+
+.takim-bilgi h3 {
+    color: darkblue;
+}
+
+.takim-bilgi h5 {
+    color: darkgreen;
+}
+
+.icerik {
+    background-color: #fff;
+}
+
+.baslik {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.icerik p {
+    padding: 0 20px 10px 20px;
+}
+
+.formano {
+    background-color: #acc9d9;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.oyuncu-foto {
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    width: 30px;
+    height: 40px;
+}
+
+.oyuncu-isim {
+    font-size: 15px;
+    color: #2a7da8;
+}
+
+.oyuncu-mevki {
+    font-size: 12px;
+}
+
+/*İletişim Bölümü*/
+.uyari {
+    color: red;
+    font-size: 13px;
+    padding-left: 10px;
+}
